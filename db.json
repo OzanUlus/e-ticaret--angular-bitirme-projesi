@@ -8,6 +8,13 @@
       "stock": 100,
       "categoryId": "233",
       "categoryName": "Telefon"
+    },
+    {
+      "id": "e790",
+      "name": "domates",
+      "imageUrl": "deneme",
+      "price": "5",
+      "stock": "100"
     }
   ]
 }

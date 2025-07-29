@@ -14,7 +14,9 @@ exportExcelFileName="products"
 language="tr"
 (onRefresh)="result.reload()"
 >
-    
+    <ng-template flexiGridCaptionCommandTemplate=>
+      <flexi-button routerLink="/products/create" btnIcon="add" btnColor="primary" title="Ürün Ekle" flexiTooltip />
+    </ng-template>
     <flexi-grid-column field="imageUrl"  title="Ürün Resmi" textAlign="center" [filterable]="false" width="70px">
         <ng-template flexiGridCellTemplate let-item>
             <img [src]="item.imageUrl" width="70" height="70" style="object-fit: contain;" />
@@ -26,6 +28,6 @@ language="tr"
     <flexi-grid-column field="stock" title="Ürün Adedi" filterType="number" textAlign="right" />
     <ng-template flexiGridColumnCommandTemplate let-item>
         <flexi-button btnIcon="edit" btnColor="warning" title="Güncelle" btnSize="small" />
-        <flexi-button btnIcon="delete" btnColor="danger" title="Sil" btnSize="small" />
+        <flexi-button (click)="delete(item.id)" btnIcon="delete" btnColor="danger" title="Sil" btnSize="small" />
     </ng-template>
 </flexi-grid>
