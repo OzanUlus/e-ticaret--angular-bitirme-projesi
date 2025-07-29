@@ -27,7 +27,7 @@ language="tr"
     <flexi-grid-column field="price" title="Ürün Fiyatı" filterType="number" textAlign="right" format="c" symbol="₺" />
     <flexi-grid-column field="stock" title="Ürün Adedi" filterType="number" textAlign="right" />
     <ng-template flexiGridColumnCommandTemplate let-item>
-        <flexi-button btnIcon="edit" btnColor="warning" title="Güncelle" btnSize="small" />
+        <flexi-button routerLink="/products/edit/{{item.id}}" btnIcon="edit" btnColor="warning" title="Güncelle" btnSize="small" />
         <flexi-button (click)="delete(item.id)" btnIcon="delete" btnColor="danger" title="Sil" btnSize="small" />
     </ng-template>
 </flexi-grid>

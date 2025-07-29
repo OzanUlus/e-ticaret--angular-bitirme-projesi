@@ -22,6 +22,16 @@ export interface ProductModel {
   categoryName: string;
 }
 
+export const initialProduct: ProductModel ={
+  id:"",
+  name:"",
+  imageUrl:"",
+  price: 0,
+  stock: 0,
+  categoryId:"123",
+  categoryName:"Telefon"
+}
+
 @Component({
   imports: [Blank, FlexiGridModule, RouterLink],
   templateUrl: './products.html',
