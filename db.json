@@ -1,0 +1,13 @@
+{
+  "products": [
+    {
+      "id": "123",
+      "imageUrl": "https://cdn.dsmcdn.com/ty1610/prod/QC/20241202/10/f7e22d01-122b-3ce4-8919-854fba37af46/1_org_zoom.jpg",
+      "name": "Iphone 16",
+      "price": 78000,
+      "stock": 100,
+      "categoryId": "233",
+      "categoryName": "Telefon"
+    }
+  ]
+}

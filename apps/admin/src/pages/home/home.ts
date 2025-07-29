@@ -1,7 +1,10 @@
-import { ChangeDetectionStrategy, Component, ViewEncapsulation } from '@angular/core';
+import { ChangeDetectionStrategy, Component,  signal, ViewEncapsulation } from '@angular/core';
+import Blank from '../../components/blank';
+
+import { BreadcrumbModel } from '../layouts/breadcrumb';
 
 @Component({
-  imports: [],
+  imports: [Blank],
   templateUrl: './home.html',
   encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.OnPush
