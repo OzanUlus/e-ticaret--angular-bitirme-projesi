@@ -6,11 +6,18 @@
       "name": "Iphone 16",
       "price": 78000,
       "stock": 100,
-      "categoryId": "233",
+      "categoryId": "cbbe",
       "categoryName": "Telefon"
     }
   ],
-  "categories":[
-   
+  "categories": [
+    {
+      "id": "cbbe",
+      "name": "Telefon"
+    },
+    {
+      "id": "3331",
+      "name": "Bilgisayar"
+    }
   ]
 }

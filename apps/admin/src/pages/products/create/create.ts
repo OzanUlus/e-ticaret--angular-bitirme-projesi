@@ -37,7 +37,7 @@ export default class ProductCreate {
       return res;
     },
   });
-  readonly data = linkedSignal(() => this.result.value() ?? initialProduct);
+  readonly data = computed(() => this.result.value() ?? {...initialProduct});
   readonly cardTitle = computed(() =>
     this.id() ? 'Ürün Güncelle' : 'Ürün Ekle'
   );
@@ -68,6 +68,7 @@ export default class ProductCreate {
         this.#router.navigateByUrl('/products');
         //this.#location.back(); geldiğin sayfaya döner
         this.#toast.showToast('Başarılı', 'Ürün başarıyla eklendi.', 'success');
+        
       });
     }else{
          this.#http
@@ -76,6 +77,8 @@ export default class ProductCreate {
         this.#router.navigateByUrl('/products');
         //this.#location.back(); geldiğin sayfaya döner
         this.#toast.showToast('Başarılı', 'Ürün başarıyla güncellendi.', 'info');
+        
+
       });
     }
 
