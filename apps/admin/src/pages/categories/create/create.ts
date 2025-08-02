@@ -25,7 +25,7 @@ export default class CreateCategory {
     params: () => this.id(),
     loader: async() => {
       var res = await lastValueFrom(
-        this.#http.get<CategoryModel>(`http://localhost:3000/categories/${this.id()}`)
+        this.#http.get<CategoryModel>(`api/categories/${this.id()}`)
       );
 
       return res;
@@ -50,13 +50,13 @@ export default class CreateCategory {
     if(!form.valid) return;
 
     if(!this.id()){
-      this.#http.post("http://localhost:3000/categories", this.data()).subscribe(res => {
+      this.#http.post("api/categories", this.data()).subscribe(res => {
         this.#toast.showToast("Başarılı","Kategori kaydı başarıyla tamamlandı");
         this.#router.navigateByUrl("/categories");
         
       });
     }else{
-      this.#http.put(`http://localhost:3000/categories/${this.id()}`, this.data()).subscribe(res => {
+      this.#http.put(`api/categories/${this.id()}`, this.data()).subscribe(res => {
         this.#toast.showToast("Başarılı","Kategori kaydı başarıyla güncellendi");
         this.#router.navigateByUrl("/categories");
          
