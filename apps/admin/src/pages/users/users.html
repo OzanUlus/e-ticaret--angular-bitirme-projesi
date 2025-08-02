@@ -29,16 +29,21 @@ language="tr"
     <flexi-grid-column field="email" title="Mail" />
     <flexi-grid-column field="isAdmin" title="Admin Mi?" textAlign="center" filterType="boolean" [booleanData]="['Admin', 'Admin Değil']" >
         <ng-template flexiGridCellTemplate let-item >
-           <input
-              type="checkbox"
-              [checked]="item.isAdmin"
-              class="form-control"
-              [name]="item.id" />
+              <div class="d-flex justify-content-center">
+            <div class="form-check form-switch">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                role="switch"
+                [id]="item.id"
+                [checked]="item.isAdmin">
+            </div>
+          </div>
         </ng-template>
     </flexi-grid-column>
     <ng-template flexiGridColumnCommandTemplate let-item>
         <flexi-button
-          routerLink="/products/edit/{{item.id}}"
+          routerLink="/users/edit/{{item.id}}"
           btnIcon="edit"
           btnColor="warning"
           title="Güncelle"

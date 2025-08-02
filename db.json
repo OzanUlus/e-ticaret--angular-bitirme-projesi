@@ -33,7 +33,16 @@
       "name": "Akıllı Saat"
     }
   ],
-  "users":[
-    
+  "users": [
+    {
+      "id": "9c33",
+      "firstName": "İlker Ozan",
+      "lastName": "Ulus",
+      "userName": "ilker",
+      "email": "ilker@gmail.com",
+      "password": "1",
+      "isAdmin": true,
+      "fullName": "İlker Ozan Ulus"
+    }
   ]
 }
