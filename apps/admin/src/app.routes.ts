@@ -15,13 +15,16 @@ export const appRoutes: Route[] = [
       },
       {
         path: 'products',
-        loadChildren: () => import('./pages/products/route')
+        loadChildren: () => import('./pages/products/route'),
+      },
+      {
+        path: 'categories',
+        loadChildren: () => import('./pages/categories/routes'),
       },
        {
-        path: 'categories',
-        loadChildren: () => import('./pages/categories/routes')
-      }
-     
+        path: 'users',
+        loadChildren: () => import('./pages/users/routes'),
+      },
     ],
   },
 ];
