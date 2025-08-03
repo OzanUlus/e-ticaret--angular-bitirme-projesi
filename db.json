@@ -12,11 +12,29 @@
     {
       "id": "5f00",
       "name": "Samsung S25",
-      "imageUrl": "test",
+      "imageUrl": "https://images.samsung.com/tr/smartphones/galaxy-s25/buy/product_color_navy_plus_PC.png",
       "price": 65000,
       "stock": "100",
       "categoryId": "cbbe",
       "categoryName": "Telefon"
+    },
+    {
+      "id": "9e32",
+      "name": "Apple Macbook Pro",
+      "imageUrl": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/mbp14-spaceblack-select-202410?wid=892&hei=820&fmt=jpeg&qlt=90&.v=YnlWZDdpMFo0bUpJZnBpZjhKM2M3VGhTSEZFNjlmT2xUUDNBTjljV1BxWjZkZE52THZKR1lubXJyYmRyWWlhOXZvdUZlR0V0VUdJSjBWaDVNVG95Yk15Y0c3T3Y4UWZwZExHUFdTUC9lN28",
+      "price": 56000,
+      "stock": "100",
+      "categoryId": "3331",
+      "categoryName": "Bilgisayar"
+    },
+    {
+      "id": "2c01",
+      "name": "Apple Watch Ultra 2",
+      "imageUrl": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/ultra-case-unselect-gallery-1-202409_GEO_TR_FMT_WHH?wid=752&hei=720&fmt=jpeg&qlt=90&.v=1724881557541",
+      "price": 46000,
+      "stock": "100",
+      "categoryId": "3f46",
+      "categoryName": "Akıllı Saat"
     }
   ],
   "categories": [
@@ -43,6 +61,16 @@
       "password": "1",
       "isAdmin": true,
       "fullName": "İlker Ozan Ulus"
+    },
+    {
+      "id": "8314",
+      "firstName": "Muhammed Yaşar",
+      "lastName": "Yıldırım",
+      "userName": "yaşar",
+      "email": "yaşar@mail.com",
+      "password": "2",
+      "isAdmin": false,
+      "fullName": "Muhammed Yaşar Yıldırım"
     }
   ]
 }
