@@ -69,7 +69,7 @@
       "userName": "yasar",
       "email": "yaşar@mail.com",
       "password": "2",
-      "isAdmin": false,
+      "isAdmin": true,
       "fullName": "Muhammed Yaşar Yıldırım"
     }
   ]
