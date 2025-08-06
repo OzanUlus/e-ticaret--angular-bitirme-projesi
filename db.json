@@ -7,7 +7,8 @@
       "price": 78000,
       "stock": 100,
       "categoryId": "cbbe",
-      "categoryName": "Telefon"
+      "categoryName": "Telefon",
+      "categoryUrl": "telefon"
     },
     {
       "id": "5f00",
@@ -16,7 +17,8 @@
       "price": 65000,
       "stock": "100",
       "categoryId": "cbbe",
-      "categoryName": "Telefon"
+      "categoryName": "Telefon",
+      "categoryUrl": "telefon"
     },
     {
       "id": "9e32",
@@ -25,7 +27,8 @@
       "price": 56000,
       "stock": "100",
       "categoryId": "3331",
-      "categoryName": "Bilgisayar"
+      "categoryName": "Bilgisayar",
+      "categoryUrl": "bilgisayar"
     },
     {
       "id": "2c01",
@@ -34,7 +37,8 @@
       "price": 46000,
       "stock": "100",
       "categoryId": "3f46",
-      "categoryName": "Akıllı Saat"
+      "categoryName": "Akıllı Saat",
+      "categoryUrl": "akilli-saat"
     },
     {
       "id": "c653",
@@ -43,7 +47,8 @@
       "price": 6999,
       "stock": "100",
       "categoryId": "1380",
-      "categoryName": "Tablet"
+      "categoryName": "Tablet",
+      "categoryUrl": "tablet"
     },
     {
       "id": "6e9b",
@@ -52,7 +57,8 @@
       "price": 27399,
       "stock": "100",
       "categoryId": "3331",
-      "categoryName": "Bilgisayar"
+      "categoryName": "Bilgisayar",
+      "categoryUrl": "bilgisayar"
     },
     {
       "id": "67e6",
@@ -61,7 +67,8 @@
       "price": 68999,
       "stock": "100",
       "categoryId": "cbbe",
-      "categoryName": "Telefon"
+      "categoryName": "Telefon",
+      "categoryUrl": "telefon"
     },
     {
       "id": "c078",
@@ -70,7 +77,8 @@
       "price": 6999,
       "stock": "100",
       "categoryId": "3f46",
-      "categoryName": "Akıllı Saat"
+      "categoryName": "Akıllı Saat",
+      "categoryUrl": "akilli-saat"
     },
     {
       "id": "3d01",
@@ -79,7 +87,8 @@
       "price": 6399,
       "stock": "100",
       "categoryId": "cbbe",
-      "categoryName": "Telefon"
+      "categoryName": "Telefon",
+      "categoryUrl": "telefon"
     },
     {
       "id": "d067",
@@ -88,7 +97,8 @@
       "price": 7499,
       "stock": "100",
       "categoryId": "f45f",
-      "categoryName": "Kulaklık"
+      "categoryName": "Kulaklık",
+      "categoryUrl": "kulaklik"
     },
     {
       "id": "e3f4",
@@ -97,29 +107,35 @@
       "price": 12499,
       "stock": "100",
       "categoryId": "f45f",
-      "categoryName": "Kulaklık"
+      "categoryName": "Kulaklık",
+      "categoryUrl": "kulaklik"
     }
   ],
   "categories": [
     {
       "id": "cbbe",
-      "name": "Telefon"
+      "name": "Telefon",
+      "url": "telefon"
     },
     {
       "id": "3331",
-      "name": "Bilgisayar"
+      "name": "Bilgisayar",
+      "url": "bilgisayar"
     },
     {
       "id": "3f46",
-      "name": "Akıllı Saat"
+      "name": "Akıllı Saat",
+      "url": "akilli-saat"
     },
     {
       "id": "f45f",
-      "name": "Kulaklık"
+      "name": "Kulaklık",
+      "url": "kulaklik"
     },
     {
       "id": "1380",
-      "name": "Tablet"
+      "name": "Tablet",
+      "url": "tablet"
     }
   ],
   "users": [
