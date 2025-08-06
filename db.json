@@ -42,8 +42,8 @@
       "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_157502400?x=536&y=402&format=jpg&quality=80&sp=yes&strip=yes&trim&ex=536&ey=402&align=center&resizesource&unsharp=1.5x1+0.7+0.02&cox=0&coy=0&cdx=536&cdy=402",
       "price": 6999,
       "stock": "100",
-      "categoryId": "3331",
-      "categoryName": "Bilgisayar"
+      "categoryId": "1380",
+      "categoryName": "Tablet"
     },
     {
       "id": "6e9b",
@@ -116,6 +116,10 @@
     {
       "id": "f45f",
       "name": "Kulaklık"
+    },
+    {
+      "id": "1380",
+      "name": "Tablet"
     }
   ],
   "users": [
