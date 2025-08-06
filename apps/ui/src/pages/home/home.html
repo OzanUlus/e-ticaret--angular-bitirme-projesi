@@ -10,7 +10,16 @@
     <div class="container">
         <h2 class="section-title">Ürünler</h2>
         <div class="products-grid">
-          
+            @for(val of data(); track val.id ){
+                <div class="product-card">
+                <img [src]="val.imageUrl"
+                    [alt]="val.name">
+                <h3>{{val.name}}</h3>
+                <p class="price">{{val.price |trCurrency: '₺': false}}</p>
+                <button class="add-to-cart">Sepete Ekle</button>
+            </div>
+            }
+
         </div>
     </div>
 </section>

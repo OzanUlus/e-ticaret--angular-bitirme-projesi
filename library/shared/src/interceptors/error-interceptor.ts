@@ -1,6 +1,6 @@
 import { HttpErrorResponse, HttpInterceptorFn } from '@angular/common/http';
 import { catchError, of } from 'rxjs';
-import { Error } from '../services/error';
+import { Error } from '@shared/services/error';
 import { inject } from '@angular/core';
 
 export const errorInterceptor: HttpInterceptorFn = (req, next) => {

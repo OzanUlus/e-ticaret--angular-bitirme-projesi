@@ -35,6 +35,69 @@
       "stock": "100",
       "categoryId": "3f46",
       "categoryName": "Akıllı Saat"
+    },
+    {
+      "id": "c653",
+      "name": "SAMSUNG Galaxy Tab A9+ 6/128 GB Tablet Silver SM-X210RDBRTUR",
+      "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_157502400?x=536&y=402&format=jpg&quality=80&sp=yes&strip=yes&trim&ex=536&ey=402&align=center&resizesource&unsharp=1.5x1+0.7+0.02&cox=0&coy=0&cdx=536&cdy=402",
+      "price": 6999,
+      "stock": "100",
+      "categoryId": "3331",
+      "categoryName": "Bilgisayar"
+    },
+    {
+      "id": "6e9b",
+      "name": "ASUS Vivobook 16X K3605VC-RP458W/Core i5-13420H/8 GB RAM/512 GB SSD/RTX 3050/16\"/W11 Laptop",
+      "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_152837847?x=536&y=402&format=jpg&quality=80&sp=yes&strip=yes&trim&ex=536&ey=402&align=center&resizesource&unsharp=1.5x1+0.7+0.02&cox=0&coy=0&cdx=536&cdy=402",
+      "price": 27399,
+      "stock": "100",
+      "categoryId": "3331",
+      "categoryName": "Bilgisayar"
+    },
+    {
+      "id": "67e6",
+      "name": "APPLE iPhone 16 256GB Akıllı Telefon Beyaz MYEF3TU/A",
+      "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_144724024?x=536&y=402&format=jpg&quality=80&sp=yes&strip=yes&trim&ex=536&ey=402&align=center&resizesource&unsharp=1.5x1+0.7+0.02&cox=0&coy=0&cdx=536&cdy=402",
+      "price": 68999,
+      "stock": "100",
+      "categoryId": "cbbe",
+      "categoryName": "Telefon"
+    },
+    {
+      "id": "c078",
+      "name": "TCL MT42X Movetime Akıllı Çocuk Saati Mavi",
+      "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_87132297?x=536&y=402&format=jpg&quality=80&sp=yes&strip=yes&trim&ex=536&ey=402&align=center&resizesource&unsharp=1.5x1+0.7+0.02&cox=0&coy=0&cdx=536&cdy=402",
+      "price": 6999,
+      "stock": "100",
+      "categoryId": "3f46",
+      "categoryName": "Akıllı Saat"
+    },
+    {
+      "id": "3d01",
+      "name": "SAMSUNG Galaxy A06 4/128GB Akıllı Telefon Siyah",
+      "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_145416734?x=536&y=402&format=jpg&quality=80&sp=yes&strip=yes&trim&ex=536&ey=402&align=center&resizesource&unsharp=1.5x1+0.7+0.02&cox=0&coy=0&cdx=536&cdy=402",
+      "price": 6399,
+      "stock": "100",
+      "categoryId": "cbbe",
+      "categoryName": "Telefon"
+    },
+    {
+      "id": "d067",
+      "name": "APPLE Airpods 4 Bluetooth Kulak İçi Kulaklık MXP63TU/A",
+      "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_147232155?x=536&y=402&format=jpg&quality=80&sp=yes&strip=yes&trim&ex=536&ey=402&align=center&resizesource&unsharp=1.5x1+0.7+0.02&cox=0&coy=0&cdx=536&cdy=402",
+      "price": 7499,
+      "stock": "100",
+      "categoryId": "f45f",
+      "categoryName": "Kulaklık"
+    },
+    {
+      "id": "e3f4",
+      "name": "APPLE AirPods Pro (2. Nesil) ve MagSafe Şarj Kutusu (USB‑C) Beyaz MTJV3TU/A",
+      "imageUrl": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_120875347?x=536&y=402&format=jpg&quality=80&sp=yes&strip=yes&trim&ex=536&ey=402&align=center&resizesource&unsharp=1.5x1+0.7+0.02&cox=0&coy=0&cdx=536&cdy=402",
+      "price": 12499,
+      "stock": "100",
+      "categoryId": "f45f",
+      "categoryName": "Kulaklık"
     }
   ],
   "categories": [
@@ -49,6 +112,10 @@
     {
       "id": "3f46",
       "name": "Akıllı Saat"
+    },
+    {
+      "id": "f45f",
+      "name": "Kulaklık"
     }
   ],
   "users": [
