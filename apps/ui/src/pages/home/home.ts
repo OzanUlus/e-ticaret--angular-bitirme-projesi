@@ -23,13 +23,13 @@ import { ActivatedRoute } from '@angular/router';
 })
 export default class Home {
   readonly categoryUrl = signal<string | undefined>(undefined);
-    readonly categoryUrlPrev = this.computedPrevious(this.categoryUrl);
+  readonly categoryUrlPrev = this.computedPrevious(this.categoryUrl);
   readonly limit = signal<number>(6);
   readonly start = signal<number>(0);
   readonly result = httpResource<ProductModel[]>(() => {
-    let endpoint = 'api/products?'
-    if(this.categoryUrl()){
-       endpoint += `categoryUrl=${this.categoryUrl()}&`;
+    let endpoint = 'api/products?';
+    if (this.categoryUrl()) {
+      endpoint += `categoryUrl=${this.categoryUrl()}&`;
     }
     endpoint += `_limit=${this.limit()}&_start=${this.start()}`;
     return endpoint;
@@ -45,12 +45,12 @@ export default class Home {
       }
     });
     effect(() => {
-       if (this.categoryUrl() !== this.categoryUrl()) {
+      if (this.categoryUrlPrev() !== this.categoryUrl()) {
         this.dataSignal.set([...this.data()]);
         this.limit.set(6);
         this.start.set(0);
       } else {
-        this.dataSignal.update(prev => [...prev, ...this.data()]);
+        this.dataSignal.update((prev) => [...prev, ...this.data()]);
       }
     });
   }
