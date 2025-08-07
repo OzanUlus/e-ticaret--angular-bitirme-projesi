@@ -162,28 +162,13 @@
   ],
   "baskets": [
     {
-      "id": "2548",
+      "id": "3b1e",
       "productId": "123",
       "productName": "Iphone 16",
-      "price": 78000,
+      "productPrice": 78000,
+      "productImageUrl": "https://cdn.dsmcdn.com/ty1610/prod/QC/20241202/10/f7e22d01-122b-3ce4-8919-854fba37af46/1_org_zoom.jpg",
       "quantity": 1,
       "userId": "9c33"
-    },
-    {
-      "id": "a2a4",
-      "productId": "5f00",
-      "productName": "Samsung S25",
-      "price": 65000,
-      "quantity": 1,
-      "userId": "9c33"
-    },
-    {
-      "id": "9a18",
-      "productId": "123",
-      "productName": "Iphone 16",
-      "price": 78000,
-      "quantity": 1,
-      "userId": "6f07"
     }
   ]
 }
