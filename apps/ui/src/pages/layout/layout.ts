@@ -1,7 +1,8 @@
 import { httpResource } from '@angular/common/http';
-import { ChangeDetectionStrategy, Component, computed, ViewEncapsulation } from '@angular/core';
-import { RouterLink, RouterOutlet } from '@angular/router';
+import { ChangeDetectionStrategy, Component, computed, inject, ViewEncapsulation } from '@angular/core';
+import { Router, RouterLink, RouterOutlet } from '@angular/router';
 import{CategoryModel} from '@shared/models/category.model'
+import { Common } from '../../service/common';
 
 @Component({
   imports: [
@@ -14,4 +15,14 @@ import{CategoryModel} from '@shared/models/category.model'
 export default class Layout {
   readonly result = httpResource<CategoryModel[]>(() =>'http://localhost:3000/categories')
   readonly data = computed(() => this.result.value() ?? [])
+  readonly user = computed(() => this.#common.user())
+
+  readonly #router = inject(Router)
+  readonly #common = inject(Common)
+
+  logout(){
+    localStorage.clear();
+    this.#common.user.set(undefined)
+    this.#router.navigateByUrl('/auth/login')
+  }
 }

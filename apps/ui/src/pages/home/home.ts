@@ -14,6 +14,7 @@ import { ProductModel } from '@shared/models/product.model';
 import { TrCurrencyPipe } from 'tr-currency';
 import { InfiniteScrollDirective } from 'ngx-infinite-scroll';
 import { ActivatedRoute } from '@angular/router';
+import { Common } from '../../service/common';
 
 @Component({
   imports: [TrCurrencyPipe, InfiniteScrollDirective],
@@ -39,6 +40,11 @@ export default class Home {
   readonly loading = computed(() => this.result.isLoading());
   readonly dataSignal = signal<ProductModel[]>([]);
   readonly #activated = inject(ActivatedRoute);
+
+  readonly user = computed(() => this.#common.user())
+
+ 
+  readonly #common = inject(Common)
 
   constructor() {
     this.#activated.params.subscribe((res) => {

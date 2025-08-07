@@ -15,7 +15,14 @@
         <div class="nav-icons">
             <i class="fas fa-search"></i>
             <i class="fas fa-shopping-cart"></i>
-            <i class="fas fa-user"></i>
+            @if(user()){
+              <i class="fas fa-power-off" title="Çıkış Yap" (click)="logout()"></i>
+            }@else {
+                <i class="fas fa-user" title="Giriş Yap" routerLink="/auth/login"></i>
+            }
+            
+            
+
         </div>
     </div>
 </nav>
