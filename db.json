@@ -100,7 +100,6 @@
       "categoryName": "Kulaklık",
       "categoryUrl": "kulaklik"
     }
-   
   ],
   "categories": [
     {
@@ -149,6 +148,16 @@
       "password": "2",
       "isAdmin": true,
       "fullName": "Muhammed Yaşar Yıldırım"
+    },
+    {
+      "id": "6f07",
+      "firstName": "Berk Alp",
+      "lastName": "Direm",
+      "userName": "BerkAlp",
+      "email": "direm@mail.com",
+      "password": "3",
+      "isAdmin": false,
+      "fullName": "Berk Alp Direm"
     }
   ]
 }

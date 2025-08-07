@@ -22,6 +22,7 @@ import { ActivatedRoute } from '@angular/router';
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export default class Home {
+    readonly placeholderCount = signal<number[]>([1,2,3]);
   readonly categoryUrl = signal<string | undefined>(undefined);
   readonly categoryUrlPrev = this.computedPrevious(this.categoryUrl);
   readonly limit = signal<number>(6);
@@ -35,6 +36,7 @@ export default class Home {
     return endpoint;
   });
   readonly data = computed(() => this.result.value() ?? []);
+  readonly loading = computed(() => this.result.isLoading());
   readonly dataSignal = signal<ProductModel[]>([]);
   readonly #activated = inject(ActivatedRoute);
 
