@@ -16,6 +16,7 @@ export default class Layout {
   readonly result = httpResource<CategoryModel[]>(() =>'http://localhost:3000/categories')
   readonly data = computed(() => this.result.value() ?? [])
   readonly user = computed(() => this.#common.user())
+  readonly basketCount =  computed(() => this.#common.basketCount());
 
   readonly #router = inject(Router)
   readonly #common = inject(Common)
@@ -23,6 +24,7 @@ export default class Layout {
   logout(){
     localStorage.clear();
     this.#common.user.set(undefined)
+    this.#common.basketCount.set(0);
     this.#router.navigateByUrl('/auth/login')
   }
 }

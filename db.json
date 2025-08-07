@@ -159,5 +159,31 @@
       "isAdmin": false,
       "fullName": "Berk Alp Direm"
     }
+  ],
+  "baskets": [
+    {
+      "id": "2548",
+      "productId": "123",
+      "productName": "Iphone 16",
+      "price": 78000,
+      "quantity": 1,
+      "userId": "9c33"
+    },
+    {
+      "id": "a2a4",
+      "productId": "5f00",
+      "productName": "Samsung S25",
+      "price": 65000,
+      "quantity": 1,
+      "userId": "9c33"
+    },
+    {
+      "id": "9a18",
+      "productId": "123",
+      "productName": "Iphone 16",
+      "price": 78000,
+      "quantity": 1,
+      "userId": "6f07"
+    }
   ]
 }

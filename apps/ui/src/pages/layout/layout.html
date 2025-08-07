@@ -14,7 +14,11 @@
         </ul>
         <div class="nav-icons">
             <i class="fas fa-search"></i>
-            <i class="fas fa-shopping-cart"></i>
+            <div style="position: relative;">
+                <i class="fas fa-shopping-cart"></i>
+                <div style="position: absolute; bottom: 5px; right: 0; border: 1px solid; border-radius: 50px; background-color: red; color: white; font-size: 8px; min-width: 15px; text-align: center;">{{(basketCount())}}</div>
+            </div>
+           
             @if(user()){
               <i class="fas fa-power-off" title="Çıkış Yap" (click)="logout()"></i>
             }@else {
