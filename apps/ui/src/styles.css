@@ -3102,3 +3102,7 @@ hr {
     }
 }
 }
+
+.cursor{
+    cursor: pointer;
+}
