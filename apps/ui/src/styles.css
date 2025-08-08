@@ -3106,3 +3106,7 @@ hr {
 .cursor{
     cursor: pointer;
 }
+.city-select.flexi-select-search-input, .flexi-select-div{
+    height: 47px !important;
+    font-size: 15px !important;
+}

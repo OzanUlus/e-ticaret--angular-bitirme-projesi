@@ -16,7 +16,8 @@
         <div class="nav-icons">
             <i class="fas fa-search"></i>
             @if(user()){
-               <div routerLink="/baskets" style="position: relative;">
+                <i routerLink="/orders" class="fas fa-truck-ramp-box cursor"></i>
+                <div routerLink="/baskets" class="cursor" style="position: relative;">
                 <i class="fas fa-shopping-cart"></i>
                 <div style="position: absolute; bottom: 5px; right: 0; border: 1px solid; border-radius: 50px; background-color: red; color: white; font-size: 8px; min-width: 15px; text-align: center;">{{(basketCount())}}</div>
             </div>
